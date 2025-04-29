@@ -1,0 +1,74 @@
+<!--
+  RFID Access Control System
+  Copyright (C) 2025 o-a-a-w
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<resources>
+    <string name="app_name">RFID Access Control</string>
+
+    <!-- Main Screen -->
+    <string name="scan_rfid">Scan RFID</string>
+    <string name="admin_access">Admin Access</string>
+    <string name="ready_to_scan">Ready to Scan</string>
+    <string name="battery">Battery Level</string>
+
+    <!-- RFID Scanning -->
+    <string name="access_granted">ACCESS GRANTED</string>
+    <string name="access_denied">ACCESS DENIED</string>
+    <string name="apartment_code">Apartment: %s</string>
+    <string name="unauthorized_tag">Unauthorized Tag</string>
+    <string name="return_home">Return to Home</string>
+    <string name="place_tag_near_device">Place RFID Tag Near Device</string>
+
+    <!-- Admin Authentication -->
+    <string name="admin_auth_title">Admin Authentication</string>
+    <string name="enter_admin_code">Enter Admin Code</string>
+    <string name="enter">Enter</string>
+    <string name="cancel">Cancel</string>
+    <string name="invalid_code">Invalid Code</string>
+
+    <!-- Admin Dashboard -->
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="view_logs">View Access Logs</string>
+    <string name="add_tag">Add New Tag</string>
+    <string name="delete_tag">Delete Tag</string>
+    <string name="view_tags">View All Tags</string>
+    <string name="logout">Logout</string>
+
+    <!-- Access Logs -->
+    <string name="access_logs">Access Logs</string>
+    <string name="no_logs">No logs available</string>
+
+    <!-- Add Tag -->
+    <string name="add_new_tag">Add New RFID Tag</string>
+    <string name="scan_new_tag">Scan New Tag</string>
+    <string name="tag_id">Tag ID: %s</string>
+    <string name="enter_apartment_code">Apartment Code:</string>
+    <string name="save">Save</string>
+    <string name="tag_saved">Tag saved successfully</string>
+    <string name="tag_error">Error saving tag</string>
+
+    <!-- Delete Tag -->
+    <string name="delete_tag_title">Delete RFID Tag</string>
+    <string name="confirm_delete">Are you sure you want to delete this tag?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="tag_deleted">Tag deleted successfully</string>
+
+    <!-- View Tags -->
+    <string name="no_tags">No tags available</string>
+    <string name="tag_format">%s - %s - %s</string>
+    <string name="back">Back</string>
+</resources>
